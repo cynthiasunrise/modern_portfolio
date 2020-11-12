@@ -66,6 +66,12 @@ LO QUE SE USÓ EN ESTE PROYECTO:
   - git init
     Crea un .git hidden folder
 
+  - git add .
+
+  - git commit -m "Initial workflow setup"
+
+* En un terminal vamos a estar corriendo node-sass compiler para que nos indique posibles erorres, y en el otro terminal vamos a correr nuestros scripts para crear archivos o para git.
+
 USEFUL TIPS
 -----------------------------------------------------------------------------------------
 * "cls" or CTRL + L

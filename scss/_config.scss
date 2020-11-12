@@ -1,0 +1,32 @@
+$primary-color: #444;
+$secondary-color: #eece1a;
+$show-home-image: true;
+$home-image: url(../img/background.jpg);
+$background-opacity: 0.9;
+
+//Mixin is like a FUNCTION
+// Function for TRANSITION
+@mixin easeOut {
+  transition: all 0.5s ease-out;
+}
+
+@mixin background {
+  @if $show-home-image {
+    &#bg-img {                    //este ID funciona porque está siendo incluído en el body
+      background: $home-image;
+      background-attachment: fixed;
+      background-size: cover;
+
+      &:after {                   //pseudo element. It doesn't exist on HTML, but CSS     
+        content: '';              //considers like it exists
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        background: rgba($color: $primary-color, $alpha: $background-opacity);
+      }
+    }
+  }
+}
