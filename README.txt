@@ -72,10 +72,15 @@ LO QUE SE USÓ EN ESTE PROYECTO:
 
 * En un terminal vamos a estar corriendo node-sass compiler para que nos indique posibles erorres, y en el otro terminal vamos a correr nuestros scripts para crear archivos o para git.
 
+* Si no ves los updates de tus scss partial files, cancela con ctrl + c en el terminal y vuelve a ejecutar "npm run sass" y regraba tu archivo
+
 USEFUL TIPS
 -----------------------------------------------------------------------------------------
 * "cls" or CTRL + L
   for cleaning
+
+* CTRL + C
+  para cancelar un comando o una tarea corriendo
 
 * MKDIR Terminal's command:
   "mkdir responsiveportofolioCSS_Sass"
