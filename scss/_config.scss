@@ -1,5 +1,6 @@
 // $primary-color: #444;
 $primary-color: rgb(25, 90, 58);
+// $primary-color: #fff;
 $secondary-color: #eece1a;
 $show-home-image: true;
 $home-image: url(../img/background.jpg);
@@ -29,6 +30,16 @@ $background-opacity: 0.9;
         background: rgba($color: $primary-color, $alpha: $background-opacity);
       }
     }
+  }
+}
+
+// If you wanna return anything, you must use a function and not a mixin
+@function set-text-color($bgcolor) {
+  @if (lightness($bgcolor) > 40) {
+    @return #000;
+  }
+  @else {
+    @return #fff;
   }
 }
 
