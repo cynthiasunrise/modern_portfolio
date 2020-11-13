@@ -1,10 +1,11 @@
-CSS3 Animation & Transitions Crash Course
+Responsive Portfolio Website
 Traversy Media
-Video del 31/10/17
-https://www.youtube.com/watch?v=zHUpx90NerM
+Video de Julio 2018
+https://www.youtube.com/watch?v=gYzHS-n2gqU&list=PLillGF-RfqbYoGoCjKoMOkVznV6aSXKzU
+https://www.youtube.com/watch?v=gYzHS-n2gqU
 
 CODE:
-https://www.youtube.com/redirect?q=http%3A%2F%2Fwww.traversymedia
+https://github.com/bradtraversy/modern_portfolio
 
 
 LO QUE SE USÓ EN ESTE PROYECTO:
