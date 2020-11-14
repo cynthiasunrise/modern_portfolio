@@ -75,6 +75,9 @@ LO QUE SE USÓ EN ESTE PROYECTO:
 
 * Si no ves los updates de tus scss partial files, cancela con ctrl + c en el terminal y vuelve a ejecutar "npm run sass" y regraba tu archivo
 
+* GITHUB PAGES
+
+
 USEFUL TIPS
 -----------------------------------------------------------------------------------------
 * "cls" or CTRL + L
