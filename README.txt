@@ -75,8 +75,12 @@ LO QUE SE USÓ EN ESTE PROYECTO:
 
 * Si no ves los updates de tus scss partial files, cancela con ctrl + c en el terminal y vuelve a ejecutar "npm run sass" y regraba tu archivo
 
-* GITHUB PAGES
-
+* GITHUB PAGES (for deploying)
+  Allows you to host any static site for free, you can also host React client-side apps or Angular client-side apps. Anything that it doesn't haver a backend or server. It's free, it gives you HTTPS. Cool service
+  - Push the repository
+    git show-ref 
+    git push -u origin HEAD:master
+  - Install a package using NPM called gh-pages, which gives us a kind of terminal, CLI to deploy our application
 
 USEFUL TIPS
 -----------------------------------------------------------------------------------------
