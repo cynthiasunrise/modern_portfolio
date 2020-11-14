@@ -16,6 +16,7 @@ $background-opacity: 0.9;
   @if $show-home-image {
     &#bg-img {                    //este ID funciona porque está siendo incluído en el body
       background: $home-image;
+      // background: rgba(68, 68, 68, $background-opacity) $home-image;   //commit githb pero no me funcionó
       background-attachment: fixed;
       background-size: cover;
 

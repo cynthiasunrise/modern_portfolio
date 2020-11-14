@@ -75,12 +75,27 @@ LO QUE SE USÓ EN ESTE PROYECTO:
 
 * Si no ves los updates de tus scss partial files, cancela con ctrl + c en el terminal y vuelve a ejecutar "npm run sass" y regraba tu archivo
 
-* GITHUB PAGES (for deploying)
+* GITHUB PAGES (for deploying) - NETLIFY
   Allows you to host any static site for free, you can also host React client-side apps or Angular client-side apps. Anything that it doesn't haver a backend or server. It's free, it gives you HTTPS. Cool service
   - Push the repository
     git show-ref 
     git push -u origin HEAD:master
   - Install a package using NPM called gh-pages, which gives us a kind of terminal, CLI to deploy our application
+    npm i gh-pages
+  - Set the configuration for deploy in package.json
+    "homepage": "https://cynthiasunrise.github.io/modern_portfolio",
+    "scripts": {
+      "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+      "deploy": "gh-pages -d dists"
+    },
+  - For registering a Domain --> NameCheap
+  - For Hosting --> InMotion, Hostgator
+
+* Problemas al publicar en GITHUB-PAGES
+  https://daryllwong.medium.com/github-pages-does-not-work-for-me-f9d48fd44a5f
+
+  Tu repositorio debe ser público o debes hacer un Upgrade de tu plan
+  En tu repositorio, anda a SETTINGS, y debajo de GITHUB-PAGES, seleccionar un branch (gh-pages generalmente)
 
 USEFUL TIPS
 -----------------------------------------------------------------------------------------
